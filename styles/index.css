@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: "JackPirateAltPersonal";
+    src: url("../assets/fonts/JackPirateAltPersonal.ttf") format("truetype");
+   font-weight: bold;
+   font-style: normal;
+ }
+
+ @font-face {
+    font-family: "Piratesbay";
+    src: url("../assets/fonts/Piratesbay.ttf") format("truetype");
+   font-weight: bold;
+   font-style: normal;
+ }
+ 

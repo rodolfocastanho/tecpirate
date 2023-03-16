@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Caça ao tesouro - Tecneuropsi</title>
+        <!-- <link rel="stylesheet" href="styles/index.css"> -->
+        <style media="screen" type="text/css">
+            @font-face {
+                font-family: "JackPirateAltPersonal";
+                src: url("../assets/fonts/JackPirateAltPersonal.ttf") format("truetype");
+                font-weight: bold;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: "Piratesbay";
+                src: url("../assets/fonts/Piratesbay.ttf") format("truetype");
+                font-weight: bold;
+                font-style: normal;
+            }
+        </style>
+
+        <script src="phaser.min.js"></script>
+    </head>
+    <body>
+        <div style="font-family:'JackPirateAltPersonal'; display: none;">JackPirateAltPersonal</div>
+        <div style="font-family:'Piratesbay'; display: none;">Piratesbay</div>
+
+        <div id="text-name-player"></div>
+        
+        <script src="javascript/variables.js"></script>
+        <script src="javascript/startScene.js"></script>
+        <script src="javascript/titleScene.js"></script>
+        <script src="javascript/introScene.js"></script>
+        <script src="javascript/playerScene.js"></script>
+        <script src="javascript/gameScene.js"></script>
+        <script src="javascript/endScene.js"></script>
+        <script src="javascript/game.js"></script>
+    </body>
+</html>
